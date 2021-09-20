@@ -1,0 +1,42 @@
+html {
+    background-color: darkgray;
+}
+
+h1 {
+    display: block;
+    font-size: 4rem;
+  }
+
+.allkeys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+.key {
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 16px;
+    padding: 16px 8px;
+    font-size: 24px;
+    transition: all 0.09s ease;
+    width: 160px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 8px black;
+}
+
+.displacedkey {
+  padding-bottom: 450px;
+}
+
+.playanim {
+  transform: scale(1.1);
+  border-color: rgb(255, 0, 0);
+  border-width: 60px;
+  border-radius: 100px;
+  box-shadow: 40px 40px 40px 40px;
+}
